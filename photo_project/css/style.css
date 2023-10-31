@@ -1,0 +1,99 @@
+:root {
+    --bright: #592C12;
+    --muted: #849EBF;
+    --dark: #0F2440;
+    --light: #AEC5F2;
+    --intense: #F2913D;
+    --background: blueviolet;
+
+    --type: 'Libre Baskerville', 'source serif 4', serif;
+    --heading: 'Tinos', serif;
+}
+
+
+/* fonts  
+font-family: 'Libre Baskerville',
+serif;
+font-family: 'Source Serif 4',
+serif;
+font-family: 'Tinos',
+serif;*/
+
+body {
+    background: ivory;
+    color: #592C12;
+    font-size: x-large;
+    font-family: 'Libre Baskerville', 'source serif 4', serif;
+}
+
+nav {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: darkkhaki;
+    font-family: 'PY Serif', serif;
+}
+
+nav a {
+    background: var(--background);
+    padding: 10px 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: var(--light);
+    border: 2px solid var(var(--dark));
+    border-radius: 20px;
+}
+
+
+nav a:hover {
+    color: var(--dark);
+    background: var(--background);
+
+
+}
+
+
+img {
+    margin: 10px auto;
+    width: 50%;
+    display: block;
+    
+}
+
+.container {
+    padding: 35px;
+    width: 70%;
+    margin: 20px auto;
+    border: 2px solid var(--light);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    min-height: 100px;
+}
+
+#right {
+    float: right;
+    width: 50%;
+}
+
+#large,p {
+    float: left;
+    font-size: medium;
+}
+#main-image{
+    min-height: 700px;
+}

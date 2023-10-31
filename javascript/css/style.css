@@ -1,0 +1,96 @@
+/*   Things that will be variables  
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--blue);
+} */
+
+/* colors */ 
+:root{
+--bright:#592C12;
+--muted:#849EBF;
+--dark: #0F2440;
+--light:#AEC5F2;
+--intense:#F2913D;
+--background:blueviolet;
+
+--type: 'PT Serif',serif;
+--heading: 'Roboto', sans-serif;
+}
+
+
+/* fonts  
+font-family: 'PT Serif',
+serif;
+font-family: 'Roboto',
+sans-serif;*/
+
+body {
+    background: ivory;
+    color: #592C12;
+    font-size: x-large;
+    font-family:'Roboto',sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+h1, h2, h3{
+    color: darkkhaki;
+    font-family:'PY Serif',serif;
+}
+
+nav a {
+    background: var(--background);
+    padding: 10px 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: var(--light);
+    border: 2px solid var(var(--dark));
+    border-radius: 20px;
+}
+
+
+nav a:hover {
+    color:var(--dark);
+   background:var(--background);
+
+
+}
+
+
+img{
+    margin: 10px auto;
+    width: 50%;
+    display:block;
+}
+
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid var(--light);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    min-height: 100px;
+
+}
+#large{
+    width: 40%;
+    display: block;
+    margin: 25px auto;
+}
