@@ -1,0 +1,331 @@
+:root {
+    --bright: #592C12;
+    --muted: #849EBF;
+    --dark: #0F2440;
+    --light: #AEC5F2;
+    --intense: #F2913D;
+    --background-light: ivory;
+    --background-dark: #111;
+    ---text-light: #592c12;
+    --text-dark: #aec5f2;
+
+    --type: 'Libre Baskerville', 'source serif 4', serif;
+    --heading: 'Tinos', serif;
+}
+
+
+/* fonts  
+font-family: 'Libre Baskerville',
+serif;
+font-family: 'Source Serif 4',
+serif;
+font-family: 'Tinos',
+serif;*/
+
+body {
+    background: var(--background-dark);
+    color: var(--text-dark);
+    font-size: x-large;
+    font-family: 'Libre Baskerville', 'source serif 4', serif;
+}
+
+nav {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--text-dark);
+    font-family: 'PY Serif', serif;
+}
+
+nav a {
+    background: var(--background);
+    padding: 10px 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: var(--light);
+    border: 2px solid var(var(--dark));
+    border-radius: 20px;
+}
+
+
+nav a:hover {
+    color: var(--text-dark);
+    background: var(--muted);
+
+
+}
+
+
+img {
+    /* margin: 10px auto; */
+    width: 45%;
+    display: block;
+}
+
+.container {
+    padding: 35px;
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    border: 2px solid var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    min-height: 100px;
+}
+
+#right {
+    float: right;
+    width: 50%;
+
+}
+
+#large,
+p {
+    float: left;
+    font-size: large;
+}
+
+#main-image {
+    min-height: 700px;
+}
+
+#predator {
+    float: left;
+    width: 30%;
+    margin: 2%;
+    background-color: #3f6871;
+        margin: 10px 0;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+
+}
+
+#happyness {
+    /* float: left; */
+background-color: #3f6871;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.left {
+    float: left;
+    width: 50%;
+
+}
+
+#avengers {
+    width: 40%;
+    margin: 5%;
+    background-color: #3f6871;
+        margin: 10px 0;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+}
+
+#transformers {
+    width: 40%;
+    margin: 5%;
+background-color: #3f6871;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#star_wars {
+    width: 50%;
+    margin: 3%;
+    background-color: #3f6871;
+        margin: 10px 0;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+}
+
+
+#venom {
+    /* float: left; */
+    /* width: 50%; */
+    margin: 5%;
+    background-color: #3f6871;
+        margin: 10px 0;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    min-height: 1500px;
+}
+
+.text{
+    font-size:xx-large;
+    
+}
+
+ header {
+     background-color: rgb(32, 185, 185) 51, 51);
+     color:var(--light);
+     text-align: center;
+     padding: 10px 0;
+ }
+
+ header a {
+     text-decoration: none;
+     color: #fff;
+     margin: 0 20px;
+ }
+
+ h1 {
+     text-align: center;
+     font-size: 36px;
+     color: var(--light);
+ }
+
+ .main-content {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .hobby {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #2c2929;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    padding: 10px;
+}
+
+/* Custom styles for the Hobbies page */
+.hobby img {
+    border: 1px solid #ccc;
+}
+/* Reset some default styles */
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define styles for the places grid */
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.place {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.place img {
+    width: 65%;
+    height: 65%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.place:hover img {
+    transform: scale(1.1);
+}
+
+.place-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.place:hover .place-overlay {
+    opacity: 1;
+}
+
+/* Styles for the main image and text */
+.main-image {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.main-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-image p {
+    margin: 1rem 0;
+}
+
+/* Footer styles */
+.container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+    background: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #36b7df;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav a.current {
+    font-weight: bold;
+}
