@@ -1,0 +1,11 @@
+.masthead{
+    background-color: #074569;
+        color: #95e1ef;
+        padding: 2rem 0;
+        text-align: center;
+        margin-bottom: 2rem;   
+}
+
+#panda{
+    border: solid 3px red;
+}
