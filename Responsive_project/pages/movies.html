@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Favorite movies/series</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-center">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/books.html">books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">animals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/video-games.html">video games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/foods.html">foods</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">movies</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div class="CarManager">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="4"
+          ></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../images/predator.webp"
+              alt="Predator"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption">
+              <h3>Predator</h3>
+              <p>
+                "The Predator" is a thrilling sci-fi classic, known for its
+                suspenseful storyline and the iconic alien hunter.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/starwarssaga.jpg"
+              alt="Star Wars"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption">
+              <h3>Star Wars</h3>
+              <p>
+                The epic saga of "Star Wars" has been a significant part of my
+                life, offering a rich universe filled with Jedi, Sith, and epic
+                battles.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/Transformers.webp"
+              alt="Transformers"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption">
+              <h3>Transformers</h3>
+              <p>
+                "Transformers" brings my childhood dreams to life, with giant
+                robots and explosive action.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/The_Batman_(film)_poster.jpg"
+              alt="Transformers"
+              class="d-block"
+              style="width: 50%"
+            />
+            <div class="carousel-caption">
+              <h3>Batman</h3>
+              <p>The new Batman movie has surpassed my expectations</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/mandalorian.jpg"
+              alt="Transformers"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption">
+              <h3>Mandolorian</h3>
+              <p>Star Wars did a great job in this series</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-3"></div>
+  </body>
+</html>
+<h2 class="text-center mb-4">Reasons Why They Are My Favorites</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Movie/Series</th>
+        <th scope="col">Reason</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Predator</td>
+        <td>The suspenseful storyline and the iconic alien hunter make "The Predator" a thrilling sci-fi classic.</td>
+      </tr>
+      <tr>
+        <td>Star Wars</td>
+        <td>The epic saga of "Star Wars" has been a significant part of my life, offering a rich universe filled with Jedi, Sith, and epic battles.</td>
+      </tr>
+      <tr>
+        <td>Transformers</td>
+        <td>"Transformers" brings my childhood dreams to life, with giant robots and explosive action.</td>
+      </tr>
+      <tr>
+        <td>Batman</td>
+        <td>The new Batman movie has surpassed my expectations.</td>
+      </tr>
+      <tr>
+        <td>Mandalorian</td>
+        <td>Star Wars did a great job in this series, capturing my interest with its characters and storyline.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

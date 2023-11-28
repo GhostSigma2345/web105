@@ -1,0 +1,126 @@
+:root {
+    --primary: #592C12;
+    --secondary: #849EBF;
+    --accent: #0e5fca;
+    --background-light: #1a1a1a;
+    --background-dark: #0c0c0c;
+    --text-light: #ffffff;
+    --text-dark: #aec5f2;
+    --type: 'Libre Baskerville', 'source serif 4', serif;
+    --heading: 'Tinos', serif;
+}
+
+body {
+    background: var(--background-dark);
+    color: var(--text-light);
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+nav {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--text-dark);
+    font-family: var(--heading);
+}
+
+nav a {
+    background: var(--background-light);
+    padding: 10px 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: var(--accent);
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    color: var(--accent);
+    background: var(--primary);
+}
+
+img {
+    margin: 10px auto;
+    width: 100%;
+    display: block;
+}
+
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid var(--accent);
+    background-color: var(--background-light);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    background-color: var(--background-dark);
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: var(--background-light);
+    text-align: center;
+    padding: 20px 0;
+    min-height: 100px;
+}
+
+#large {
+    width: 100%;
+    display: block;
+    margin: 25px auto;
+}
+
+.CarManager {
+    width: 80%;
+    margin: auto;
+}
+
+/* Custom styles for small screens */
+@media (max-width: 576px) {
+    .carousel-item img {
+        width: 100%;
+    }
+    
+
+    .carousel-item {
+        text-align: center;
+    }
+}
+
+/* Custom styles for medium screens */
+@media (min-width: 576px) and (max-width: 768px) {
+    .carousel-item img {
+        width: 80%;
+    }
+}
+
+/* Custom styles for large screens */
+@media (min-width: 768px) and (max-width: 992px) {
+    .carousel-item img {
+        width: 70%;
+    }
+}
+
+/* Custom styles for extra-large screens */
+@media (min-width: 992px) {
+    .carousel-item img {
+        width: 50%;
+    }
+}
+
+.nav-link{
+    color: rgb(160 197 242);;
+}
+.img-thumbnail{
+    background-color: #0e5fca;
+}
